@@ -1,0 +1,11 @@
+# Direct notebook dependencies and the Jupyter interface.
+# Versions are unpinned because the finalized research did not record a lockfile.
+pandas
+numpy
+scipy
+matplotlib
+openpyxl
+yfinance
+Jinja2
+ipython
+jupyter
