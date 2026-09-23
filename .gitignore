@@ -1,0 +1,64 @@
+# Jupyter and Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Private Excel inputs and research outputs (case-insensitive extensions)
+*.[xX][lL][sS]
+*.[xX][lL][sS][xX]
+*.[xX][lL][sS][mM]
+*.[xX][lL][sS][bB]
+*.[xX][lL][tT]*
+~$*
+
+# Licensed data, security-level exports, and historical snapshots
+[bB]loomberg*/
+[rR]aw*/
+[dD]ata/
+[pP]rivate*/
+[sS]napshots/
+[hH]istorical_[sS]napshots/
+[eE]xports/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# Private security-level research overrides
+private_overrides.json
+**/private_overrides.json
+
+# Local environments and credentials
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.env
+.env.*
+.python-version
+
+# Temporary files, backups, and local editor settings
+tmp/
+temp/
+work/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+*.log
+*Save*.ipynb
+*Archive*.ipynb
+*backup*.ipynb
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
